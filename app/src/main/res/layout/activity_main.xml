@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안드로이드 메모장"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5조(어려워조)"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:background="#D7C7FA"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="ID입력" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호 입력"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입" />
+
+    <Button
+        android:id="@+id/btnTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tab 레이아웃" />
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다이얼로그 표시" />
+
+    <Button
+        android:id="@+id/btnListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리스트뷰" />
+
+    <Button
+        android:id="@+id/btnRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리사이클러뷰" />
+
+    <Button
+        android:id="@+id/btnTts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text to speech" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카메라" />
+</LinearLayout>

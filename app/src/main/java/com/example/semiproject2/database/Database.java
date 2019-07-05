@@ -1,10 +1,10 @@
 package com.example.semiproject2.database;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+import com.example.semiproject2.Fragment_1;
 import com.example.semiproject2.model.MemberModel;
 import com.example.semiproject2.model.MyItem;
 import com.google.gson.Gson;
@@ -26,7 +26,7 @@ public class Database {
 
     private Database() {}
 
-    public static Database getInstance(Context context) {
+    public static Database getInstance(Fragment_1 context) {
 
         if (items == null) {
             items = new ArrayList<>();

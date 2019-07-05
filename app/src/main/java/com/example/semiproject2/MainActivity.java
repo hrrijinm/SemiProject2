@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+/*
         // Tab 레이아웃
         Button btnTab = findViewById(R.id.btnTab);
         btnTab.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         TabActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         /*
         // 다이얼로그 표시

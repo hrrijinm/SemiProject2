@@ -22,9 +22,8 @@ public class TabActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.viewPager);
 
         // Tab 생성
-        tabLayout.addTab(tabLayout.newTab().setText("탭 1"));
-        tabLayout.addTab(tabLayout.newTab().setText("탭 2"));
-        tabLayout.addTab(tabLayout.newTab().setText("탭 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("메모"));
+        tabLayout.addTab(tabLayout.newTab().setText("회원확인"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         // ViewPager 생성
@@ -61,8 +60,6 @@ public class TabActivity extends AppCompatActivity {
                     return new Fragment_1();
                 case 1:
                     return new Fragment_2();
-                case 2:
-                    return new Fragment_3();
             }
 
             return null;
